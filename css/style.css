@@ -1,0 +1,21 @@
+:root {
+    --footer-height: 5.75em;
+ }
+ .container-minus-footer {
+    min-height: calc(100vh - var(--footer-height));
+ }
+ .custom-footer {
+    height: var(--footer-height);
+    margin: 0;
+    padding: 1ch;
+    width: 100%;
+    bottom: 0;
+ }
+ .calc-button {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+ }
